@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+ myapp:
+   restart: always
+   build:
+     context: .
+     dockerfile: Dockerfile
+   environment:
+     PORT: "3124"
+   ports:
+     - "3124:3124"

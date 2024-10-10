@@ -59,3 +59,4 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /myapp/Lib
 /myapp/Scripts
 /myapp/pyvenv.cfg
+/myapp/__pycache__
