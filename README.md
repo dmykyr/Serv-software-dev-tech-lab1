@@ -38,3 +38,9 @@ Here’s a step-by-step guide:
     ```sh
       pip install -r requirements.txt
     ```
+
+5. Run
+    - use flask command to run
+    ```sh
+      flask --app ./__init__.py run -h 0.0.0.0 -p <your port>
+    ```

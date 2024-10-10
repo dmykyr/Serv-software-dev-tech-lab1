@@ -1,6 +1,6 @@
 from flask import jsonify
 from datetime import datetime
-from myapp import app
+from . import app
 
 @app.route("/healthcheck")
 def healthcheck():
