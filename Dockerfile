@@ -12,4 +12,4 @@ RUN python -m pip install -r requirements.txt
 COPY . /myapp
 
 
-CMD flask --app ./myapp/__init__.py  run -h 0.0.0.0 -p $PORT
+CMD flask --app ./__init__.py  run -h 0.0.0.0 -p $PORT
